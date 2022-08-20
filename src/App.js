@@ -1,15 +1,12 @@
 import react from 'react';
 
-
-import SquareBoard from './components/SquareBoard'
+import SquareBoard from './components/SquareBoard';
 
 const App=()=>{
     
 
     return (<div className='main'>
-        <SquareBoard />
-        
-
+      <SquareBoard/>
     </div>)
 }
 

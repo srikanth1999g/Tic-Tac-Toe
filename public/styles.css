@@ -1,51 +1,24 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin:0px;
+    padding: 0px;
 }
-
-ol li{
-    list-style: none;
-    width: 50px;
-    height: 50px;
-}
-
-.main{
-    display: flex;
-    width: 100%;
+body{
     height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
 }
+ul{
+    list-style: none;
+    display: flex;
 
-.final-board{
-    /* background-color: yellow; */
+}
+li{
+    width: 60px;
+    height: 60px;
+}
+li button{
     width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-/* ol{
-    background-color: wheat;
-    color : black;
-
+    height: 100%;
 
 }
-ol li{
-    border: 2px solid black;
-    display: flex;
-    justify-content : center;
-    align-items: center;
-} */
-
-.final-board  div button{
-    background-color: antiquewhite;
-    width: 50px;
-    height: 50px;
-    
-}
-
-
